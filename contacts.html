@@ -1,1 +1,85 @@
-contacts.html
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Оружейный магазин "Ajax"</title>
+</head>
+
+<body>
+    <!--Создание меню-->
+    <ul>
+        <li><a href="index.html"> Главная </a></li>
+        <li><a href="catalog.html"> Каталог </a></li>
+        <li><a href="contacts.html"> Контакты </a></li>
+    </ul>
+    <hr>
+    <h1>Напишите нам</h1>
+    <form action="my_script.php">
+        <fieldset>
+            <legend>ОБРАТНАЯ СВЯЗЬ</legend>
+            <table>
+                <thead>
+                    <tr>
+                        <td colspan="2">&nbsp;</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="myName">Имя&nbsp;</label><span>*</span></td>
+                        <td>
+                            <input id="myName" type="text" size="30" placeholder="Введите Ваше имя" name="myName"> </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <lable for="mymess">Сообщение&nbsp;</lable><span>*</span></td>
+                        <td>
+                            <textarea id="mymess" cols="31" rows="5" placeholder="Введите Ваше сообщение" name="mymess"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="myemail">E-mail&nbsp;</label><span>*</span></td>
+                        <td>
+                            <input id="myemail" type="email" placeholder="Введите Ваш E-mail" name="myemail" size="30"> </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="myphone">Телефон&nbsp;</label>
+                        </td>
+                        <td>
+                            <input id="myphone" type="text" placeholder="Введите Ваш телефон" name="myphone" size="30"> </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" value="Отправить"> </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </fieldset>
+    </form>
+    <h1>Адрес</h1> ИНТЕРНЕТ-МАГАЗИН КОМПАНИИ «Ajax»
+    <br> +7 (495) 111-01-01,
+    <br> +7 (495) 222-02-02
+    <br>ГЛАВНЫЙ ОФИС КОМПАНИИ «Ajax»
+    <br>Телефоны: +7 (495) 333-33-03,
+    <br> +7 (495) 444-44-04,
+    <br>+7 (495) 555-55-05
+    <br>Электронная почта: info@stvol.ru
+    <br>Наш адрес: 117105, г.Москва, Варшавское ш., д. 1, стр. 6
+    <br>Режим работы магазина: понедельник - суббота с 10 до 21 часа,
+    <br>воскресенье - с 10 до 18 часов.
+    <h1>Мы на карте</h1>
+    <p>
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=YcXRRr6dH3aHPBfyqOr9P28wcaMbLjeq&amp;width=600&amp;height=480&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
+    </p>
+    <br>
+    <hr>
+    <p>Все права защищены&nbsp;&copy;&nbsp;2017</p>
+</body>
+
+</html>
