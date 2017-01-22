@@ -1,7 +1,14 @@
 body {
 background : #f8f8f8;
 }
-h1 {
-text align
-: center;
+. menu li {
+fontstyle
+: italic;
+fontsize
+: 20px;
+liststyletype
+: none;
+}
+. menu li a {
+color : #8B00FF;
 }
