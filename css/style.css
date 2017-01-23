@@ -1,14 +1,78 @@
 body {
-background : #f8f8f8;
+    background: #f8f8f8;
 }
-. menu li {
-fontstyle
-: italic;
-fontsize
-: 20px;
-liststyletype
-: none;
+
+.menu {
+    font-style: italic;
+    font-size: 20px;
+    list-style-type: none;
 }
-. menu li a {
-color : #8B00FF;
+
+.menu a {
+    text-decoration: none;
+}
+
+h1 h2 {
+    color: black;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    background: #eaeaea;
+}
+
+#myName {
+    color: blue;
+    font-size: 18px;
+    width: 300px;
+    /* Ширина блока */
+    background: #e4e44d;
+    /* Цвет фона */
+    padding: 7px;
+    /* Поля вокруг текста */
+    border: 1px solid #ccc;
+    /* Параметры рамки */
+}
+
+#mysubject {
+    width: 300px;
+    /* Ширина блока */
+    background: #e4e44d;
+    /* Цвет фона */
+    padding: 7px;
+    /* Поля вокруг текста */
+    border: 1px solid #ccc;
+    /* Параметры рамки */
+}
+
+#myemail {
+    width: 300px;
+    /* Ширина блока */
+    background: #e4e44d;
+    /* Цвет фона */
+    padding: 7px;
+    /* Поля вокруг текста */
+    border: 1px solid #ccc;
+    /* Параметры рамки */
+}
+
+#mymessage {
+    width: 300px;
+    /* Ширина блока */
+    background: #e4e44d;
+    /* Цвет фона */
+    padding: 7px;
+    /* Поля вокруг текста */
+    border: 1px solid #ccc;
+    /* Параметры рамки */
+}
+
+#myphone {
+    width: 300px;
+    /* Ширина блока */
+    background: #e4e44d;
+    /* Цвет фона */
+    padding: 7px;
+    /* Поля вокруг текста */
+    border: 1px solid #ccc;
+    /* Параметры рамки */
 }
