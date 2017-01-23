@@ -12,7 +12,8 @@ body {
     text-decoration: none;
 }
 
-h1 h2 {
+h1,
+h2 {
     color: black;
     font-size: 18px;
     font-style: italic;
@@ -20,12 +21,49 @@ h1 h2 {
     background: #eaeaea;
 }
 
-#myName {
-    color: blue;
+img {
+    border: 1px solid darkgrey;
+    padding: 3px;
+    border-radius: 16px;
+    background: silver;
+}
+
+.tar {
+    font-style: oblique;
+    list-style-image: url(../img/target.svg);
+}
+
+.item {
+    color: black;
     font-size: 18px;
+    font-weight: 400;
+    background: #eaeaea;
+}
+
+.descr {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.detail {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.feature {
+    font-style: oblique;
+    list-style-image: url(../img/target.svg);
+}
+
+#myName {
     width: 300px;
     /* Ширина блока */
-    background: #e4e44d;
+    background: beige;
     /* Цвет фона */
     padding: 7px;
     /* Поля вокруг текста */
@@ -36,7 +74,7 @@ h1 h2 {
 #mysubject {
     width: 300px;
     /* Ширина блока */
-    background: #e4e44d;
+    background: beige;
     /* Цвет фона */
     padding: 7px;
     /* Поля вокруг текста */
@@ -47,7 +85,7 @@ h1 h2 {
 #myemail {
     width: 300px;
     /* Ширина блока */
-    background: #e4e44d;
+    background: beige;
     /* Цвет фона */
     padding: 7px;
     /* Поля вокруг текста */
@@ -58,7 +96,7 @@ h1 h2 {
 #mymessage {
     width: 300px;
     /* Ширина блока */
-    background: #e4e44d;
+    background: beige;
     /* Цвет фона */
     padding: 7px;
     /* Поля вокруг текста */
@@ -69,7 +107,7 @@ h1 h2 {
 #myphone {
     width: 300px;
     /* Ширина блока */
-    background: #e4e44d;
+    background:beige;
     /* Цвет фона */
     padding: 7px;
     /* Поля вокруг текста */
