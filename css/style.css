@@ -76,6 +76,16 @@ img {
     list-style-image: url(../img/target.svg);
 }
 
+
+/*
+a img {
+    border: 3px solid #53da3f; /* Рамка вокруг изображения-ссылки 
+}         
+   a:hover img  {
+    border: 3px solid #f26522; /* Рамка при наведении на ссылку курсора мыши 
+}
+*/
+
 #myName {
     width: 300px;
     /* Ширина блока */
