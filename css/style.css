@@ -87,6 +87,10 @@ img {
     /* Параметры рамки */
 }
 
+#myName[type="text"] {
+    text-transform: capitalize;
+}
+
 #mysubject {
     width: 300px;
     /* Ширина блока */
@@ -96,6 +100,10 @@ img {
     /* Поля вокруг текста */
     border: 1px solid #ccc;
     /* Параметры рамки */
+}
+
+#mysubject[type="text"] {
+    text-transform: capitalize;
 }
 
 #myemail {
@@ -109,6 +117,15 @@ img {
     /* Параметры рамки */
 }
 
+#myemail[type=email]:focus {
+    background: black;
+    color: aliceblue;
+}
+
+#myemail[type="email"] {
+    text-transform: capitalize;
+}
+
 #mymessage {
     width: 300px;
     /* Ширина блока */
@@ -118,6 +135,10 @@ img {
     /* Поля вокруг текста */
     border: 1px solid #ccc;
     /* Параметры рамки */
+}
+
+#mymessage {
+    text-transform: capitalize;
 }
 
 #myphone {
