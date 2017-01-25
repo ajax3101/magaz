@@ -11,14 +11,23 @@ body {
 .menu a {
     text-decoration: none;
 }
-.header {
-    
-}
-.header img { 
+
+.header {}
+
+.header img {
     width: 90px;
     border: transparent;
     background: transparent;
 }
+
+.menu a:link:hover {
+    color: aqua;
+}
+
+.menu a:visited:hover {
+    color: firebrick;
+}
+
 h1,
 h2 {
     color: black;
@@ -114,7 +123,7 @@ img {
 #myphone {
     width: 300px;
     /* Ширина блока */
-    background:beige;
+    background: beige;
     /* Цвет фона */
     padding: 7px;
     /* Поля вокруг текста */
