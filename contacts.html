@@ -3,17 +3,23 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="оружейный магазин">
+    <meta name="keywords" content="оружейный магазин">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <title>Оружейный магазин "Ajax"</title>
 </head>
 
 <body>
     <!--Создание меню-->
-    <ul class="menu">
-        <li><a href="index.html"> Главная </a></li>
-        <li><a href="catalog.html"> Каталог </a></li>
-        <li><a href="contacts.html"> Контакты </a></li>
-    </ul>
+    <div class="header">
+        <a href="index.html"><img src="img/target.svg" alt="ИНТЕРНЕТ-МАГАЗИН КОМПАНИИ «Ajax»" title="ИНТЕРНЕТ-МАГАЗИН КОМПАНИИ «Ajax»"></a>
+        <ul class="menu">
+            <li><a href="index.html"> Главная </a></li>
+            <li><a href="catalog.html"> Каталог </a></li>
+            <li><a href="contacts.html"> Контакты </a></li>
+        </ul>
+    </div>
     <hr>
     <h1>Напишите нам</h1>
     <form action="my_script.php">
@@ -56,7 +62,7 @@
                             <label for="myphone">Телефон&nbsp;</label>
                         </td>
                         <td>
-                            <input id="myphone" type="text" placeholder="Введите Ваш телефон" name="myphone" size="30"> </td>
+                            <input id="myphone" type="number" placeholder="Введите Ваш телефон" name="myphone" size="30"> </td>
                     </tr>
                 </tbody>
                 <tfoot>
@@ -89,7 +95,9 @@
     </p>
     <br>
     <hr>
-    <p>Все права защищены&nbsp;&copy;&nbsp;2017</p>
+    <div class="footer">
+        <p>Все права защищены&nbsp;&copy;&nbsp;2017</p>
+    </div>
 </body>
 
 </html>
