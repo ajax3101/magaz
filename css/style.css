@@ -38,10 +38,12 @@ h2 {
 }
 
 img {
-    border: 1px solid darkgrey;
-    padding: 3px;
-    border-radius: 16px;
-    background: silver;
+    outline: 3px solid darkgrey;
+    padding: 0px;
+}
+
+a:hover img {
+    outline: none;
 }
 
 .tar {
@@ -63,6 +65,15 @@ img {
     line-height: 16px;
 }
 
+p.descr:first-letter {
+    font-family: "Times New Roman", Times, serif;
+    /* Гарнитура шрифта первой буквы */
+    font-size: 200%;
+    /* Размер шрифта первого символа */
+    color: red;
+    /* Красный цвет текста */
+}
+
 .detail {
     color: #484343;
     font-size: 16px;
@@ -76,15 +87,19 @@ img {
     list-style-image: url(../img/target.svg);
 }
 
-
-/*
-a img {
-    border: 3px solid #53da3f; /* Рамка вокруг изображения-ссылки 
-}         
-   a:hover img  {
-    border: 3px solid #f26522; /* Рамка при наведении на ссылку курсора мыши 
+table {
+    border-collapse: collapse;
 }
-*/
+
+table,
+th,
+td {
+    border: 1px solid gray;
+}
+
+tr:hover {
+    background-color: #707070;
+}
 
 #myName {
     width: 300px;
