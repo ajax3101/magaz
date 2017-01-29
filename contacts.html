@@ -5,77 +5,79 @@
     <meta charset="UTF-8">
     <meta name="description" content="оружейный магазин">
     <meta name="keywords" content="оружейный магазин">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <title>Оружейный магазин "Ajax"</title>
 </head>
 
 <body>
     <!--Создание меню-->
-    <div class="header">
-        <a href="index.html"><img src="img/target.svg" alt="ИНТЕРНЕТ-МАГАЗИН КОМПАНИИ «Ajax»" title="ИНТЕРНЕТ-МАГАЗИН КОМПАНИИ «Ajax»"></a>
-        <ul class="menu">
-            <li><a href="index.html"> Главная </a></li>
-            <li><a href="catalog.html"> Каталог </a></li>
-            <li><a href="contacts.html"> Контакты </a></li>
-        </ul>
-    </div>
-    <hr>
-    <h1>Напишите нам</h1>
-    <form action="my_script.php">
-        <fieldset>
-            <legend>ОБРАТНАЯ СВЯЗЬ</legend>
-            <table>
-                <thead>
-                    <tr>
-                        <td colspan="2">&nbsp;</td>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>
-                            <label for="myName">Имя&nbsp;</label><span>*</span></td>
-                        <td>
-                            <input id="myName" type="text" size="30" placeholder="Введите Ваше имя" name="myName"> </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="mysubject">Тема&nbsp;</label><span>*</span></td>
-                        <td>
-                            <input id="mysubject" type="text" size="30" placeholder="Тема" name="mysubject"> </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="myemail">E-mail&nbsp;</label><span>*</span></td>
-                        <td>
-                            <input id="myemail" type="email" placeholder="Введите Ваш E-mail" name="myemail" size="30"> </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="mymessage">Сообщение&nbsp;</lable><span>*</span></td>
-                        <td>
-                            <textarea id="mymessage" cols="31" rows="5" placeholder="Введите Ваше сообщение" name="mymessage"></textarea>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="myphone">Телефон&nbsp;</label>
-                        </td>
-                        <td>
-                            <input id="myphone" type="number" placeholder="Введите Ваш телефон" name="myphone" size="30"> </td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td></td>
-                        <td>
-                            <input type="submit" value="Отправить"> </td>
-                    </tr>
-                </tfoot>
-            </table>
-            <p><small>* Обязательные поля для заполнения</small></p>
-        </fieldset>
-    </form> <address>
+    <div class="container">
+        <div class="header">
+            <a href="index.html"><img src="img/target.svg" alt="ИНТЕРНЕТ-МАГАЗИН КОМПАНИИ «Ajax»" title="ИНТЕРНЕТ-МАГАЗИН КОМПАНИИ «Ajax»"></a>
+            <ul class="menu">
+                <li><a href="index.html"> Главная </a></li>
+                <li><a href="catalog.html"> Каталог </a></li>
+                <li><a href="contacts.html"> Контакты </a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <hr>
+            <h1>Напишите нам</h1>
+            <form action="my_script.php">
+                <fieldset>
+                    <legend>ОБРАТНАЯ СВЯЗЬ</legend>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td colspan="2">&nbsp;</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <label for="myName">Имя&nbsp;</label><span>*</span></td>
+                                <td>
+                                    <input id="myName" type="text" size="30" placeholder="Введите Ваше имя" name="myName"> </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="mysubject">Тема&nbsp;</label><span>*</span></td>
+                                <td>
+                                    <input id="mysubject" type="text" size="30" placeholder="Тема" name="mysubject"> </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="myemail">E-mail&nbsp;</label><span>*</span></td>
+                                <td>
+                                    <input id="myemail" type="email" placeholder="Введите Ваш E-mail" name="myemail" size="30"> </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="mymessage">Сообщение&nbsp;</lable><span>*</span></td>
+                                <td>
+                                    <textarea id="mymessage" cols="31" rows="5" placeholder="Введите Ваше сообщение" name="mymessage"></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="myphone">Телефон&nbsp;</label>
+                                </td>
+                                <td>
+                                    <input id="myphone" type="number" placeholder="Введите Ваш телефон" name="myphone" size="30"> </td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <input type="submit" value="Отправить"> </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                    <p><small>* Обязательные поля для заполнения</small></p>
+                </fieldset>
+            </form> <address>
     <h1>Адрес</h1> 
     <strong>ИНТЕРНЕТ-МАГАЗИН КОМПАНИИ «Ajax»</strong> <br> 
 <abbr title="Телефон">Телефон:</abbr> +7 (495) 222-02-02 <br>
@@ -89,14 +91,15 @@
     понедельник - суббота с 10 до 21 часа,<br>
     воскресенье - с 10 до 18 часов.
     </address>
-    <h1>Мы на карте</h1>
-    <p>
-        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=YcXRRr6dH3aHPBfyqOr9P28wcaMbLjeq&amp;width=600&amp;height=480&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
-    </p>
-    <br>
-    <hr>
-    <div class="footer">
-        <p>Все права защищены&nbsp;&copy;&nbsp;2017</p>
+            <div class="maps">
+                <h1>Мы на карте</h1>
+                        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=YcXRRr6dH3aHPBfyqOr9P28wcaMbLjeq&amp;width=100%25&amp;height=374&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
+               </div>
+        </div>
+        <hr>
+        <div class="footer">
+            <p>Все права защищены&nbsp;&copy;&nbsp;2017</p>
+        </div>
     </div>
 </body>
 
